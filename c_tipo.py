@@ -1,0 +1,16 @@
+import streamlit as st
+from PIL import Image
+import streamlit.components.v1 as components
+
+    
+def main():
+    st.title('INVERSIONES SEGÚN EL TIPO DE MINA')
+    st.write("    ")
+    st.markdown("<div style='text-align: justify'>En esta sección se analiza las inversiones de la Cartera según el tipo de mina a utilizar cuando los proyectos inicien la etapa de operación y se tenga que realizar actividades de explotación. Cabe mencionar que la elección de un tipo de mina dependerá de la mineralización y condiciones geográficas de la zona donde se establecerá una mina, asimismo debe ser la alternativa de menor costo y la que permita maximizar el nivel de extracción del mineral.</div>", unsafe_allow_html=True)
+    st.write("    ")
+    st.markdown("<div style='text-align: justify'>De esta manera, la presente Cartera cuenta con un total de 28 proyectos con el método de explotación a tajo abierto, los cuales suman una inversión conjunta de US$ 47,493 millones representando el 84.6% de la inversión global de la Cartera. De este grupo resaltan: Quellaveco (US$ 5,300 millones) en Moquegua, Mina Justa (US$ 1,600 millones) en Ica y Ampliación Toromocho (US$ 1,355 millones) en Junín, los cuales, a su vez se encuentran en la etapa de construcción. Asimismo, gracias a la tecnología es posible contar con minas subterráneas cada vez más profundas; es así que en la presente Cartera se aprecian 12 proyectos de este tipo, los cuales tienen una inversión conjunta estimada en US$ 2,982 millones. De este grupo sobresalen San Gabriel (US$ 422 millones) en Moquegua, Optimización Inmaculada (US$ 136 millones) en Ayacucho y Ampliación Santa María (US$ 121 millones) que se encuentra en fase de construcción en La Libertad.</div>", unsafe_allow_html=True)
+    st.write("    ")
+    link='<iframe width="1250" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiMDBhMDc0ODQtYjM3Ny00MDUzLWJkZmUtM2I0N2ExNWYxZDU5IiwidCI6IjcyODk0ODA3LTJhMzctNDExNC1hZjVlLTU3MDU1ZTljNmQ5NCJ9&pageName=ReportSection761698780c82403b315e" frameborder="0" allowFullScreen="true"></iframe>'
+    components.html(link,width=1250, height=800)
+    st.write("    ")
+    st.markdown("<div style='text-align: justify'>Por otro lado, también se cuenta con 3 proyectos que estiman emplear ambos métodos mencionados (explotación a tajo abierto y subterráneo). Estos proyectos cuentan con un monto de inversión conjunto de US$ 4,306 millones, destacando Yanacocha Sulfuros (US$ 2,100 millones) en la región de Cajamarca, el cual busca alargar sustancialmente la vida de la mina por medio del proyecto en mención. Cabe resaltar que, para esta edición de la Cartera de Construcción se está considerando el proyecto de reaprovechamiento de relaves Ampliación Shouxin (US$ 140 millones) en Ica, que consiste en la ampliación de su planta de beneficio en un 100% de su capacidad productiva. Del mismo modo, se contempla el proyecto de refinería Planta de Cobre Río Seco al norte de Lima, el cual consiste en poner en operación una nueva planta para el tratamiento de concentrados la cual tiene un monto de inversión de US$ 350 millones. Finalmente, el proyecto Macusani (US$ 887 millones) en Puno todavía no ha definido el método de explotación.</div>", unsafe_allow_html=True)
