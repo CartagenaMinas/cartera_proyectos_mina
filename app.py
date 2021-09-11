@@ -4,9 +4,6 @@
 ######################## Importar Librerias ##############################
 import streamlit as st
 import pandas as pd
-import principal
-import tablas
-import graficos
 from PIL import Image
 import c_ubicacion
 import c_tipo_proyecto
